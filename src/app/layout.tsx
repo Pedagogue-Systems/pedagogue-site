@@ -20,12 +20,12 @@ export default function RootLayout({
         <header className="border-b">
           <nav className="container mx-auto flex items-center gap-6 p-4">
             <Link href="/" className="flex items-center gap-3">
-              {/* If you added your logo: public/brand/logo.svg */}
+              {/* If you added your logo: public/brand/mark.png */}
               <Image
-                src="/brand/logo.svg"
+                src="/brand/mark.png" //icon-only mark
                 alt="Pedagogue Systems"
-                width={28}
-                height={28}
+                width={32}
+                height={32}
                 priority
               />
               <span className="font-semibold">Pedagogue Systems</span>
