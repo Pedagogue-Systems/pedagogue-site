@@ -239,6 +239,14 @@ export default function Page() {
           >
             chris@pedagogue.co
           </a>
+          <a
+            href="https://calendly.com/chris-pedagogue/30-min-with-chris-loope"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-white hover:bg-primary-600 transition-colors"
+          >
+            Schedule 30 minutes
+          </a>
         </div>
       </section>
     </>
