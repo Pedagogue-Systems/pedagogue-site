@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Pedagogue Systems",
   description:
-    "Practical, responsible AI and transformation for operations.",
+    "Chris Loope — fractional transformation executive for PE-backed services companies.",
   themeColor: "#FF8200",
 };
 
@@ -34,7 +34,7 @@ export default function RootLayout({
               href="#contact"
               className="rounded-xl bg-primary px-4 py-2 text-white hover:bg-primary-600"
             >
-              Contact
+              Let&apos;s talk
             </a>
           </nav>
         </header>
