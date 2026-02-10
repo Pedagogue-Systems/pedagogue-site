@@ -4,12 +4,12 @@ export default function Page() {
       {/* Hero */}
       <section className="py-20">
         <h1 className="text-4xl font-bold mb-4">
-          I lead transformation programs for PE-backed services companies.
+          I lead transformation programs for mid-market services companies.
         </h1>
         <p className="text-lg text-smokey max-w-2xl">
           25+ years in staffing, healthcare, and workforce technology.
           Post-merger integration, platform modernization, and
-          EBITDA-linked execution for companies from $250M to $3B.
+          margin-driven execution for companies from $250M to $3B.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <a
@@ -63,7 +63,7 @@ export default function Page() {
         <p className="text-smokey max-w-2xl mb-8">
           I align people, process, data, and technology. Stabilize operations
           while enabling automation, integration, and M&amp;A readiness.
-          Deliver measurable progress tied to EBITDA.
+          Deliver measurable progress tied to profitability.
         </p>
         <ol className="space-y-4 max-w-2xl">
           <li className="flex gap-4">
@@ -80,7 +80,7 @@ export default function Page() {
             <div>
               <h3 className="font-semibold">Design (30&ndash;45 days)</h3>
               <p className="text-sm text-smokey">
-                Roadmap with quick wins, ROI model, EBITDA-tied projects.
+                Roadmap with quick wins, ROI model, margin-tied projects.
               </p>
             </div>
           </li>
@@ -114,7 +114,7 @@ export default function Page() {
         </ol>
         <p className="mt-8 text-sm text-smokey max-w-2xl">
           <strong className="text-foreground">What you get:</strong> Aligned
-          teams and systems. EBITDA-focused execution with repeatable methods.
+          teams and systems. Margin-focused execution with repeatable methods.
           AI and M&amp;A readiness built into the foundation.
         </p>
       </section>
@@ -140,7 +140,7 @@ export default function Page() {
               strategy
             </p>
             <p className="text-sm">
-              Grew revenue $207M &rarr; $326M, EBITDA $12.2M &rarr; $25.3M.
+              Grew revenue $207M &rarr; $326M, operating profit $12.2M &rarr; $25.3M.
               Led a 35-project transformation program.
             </p>
           </div>
@@ -240,7 +240,7 @@ export default function Page() {
             chris@pedagogue.co
           </a>
           <a
-            href="https://calendly.com/chris-pedagogue/30-min-with-chris-loope"
+            href="https://calendly.com/chris-pedagogue"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-white hover:bg-primary-600 transition-colors"
