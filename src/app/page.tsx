@@ -234,12 +234,6 @@ export default function Page() {
             Connect on LinkedIn
           </a>
           <a
-            href="mailto:chris@pedagogue.co"
-            className="inline-flex items-center gap-2 rounded-xl border px-5 py-3 hover:bg-black/5 transition-colors"
-          >
-            chris@pedagogue.co
-          </a>
-          <a
             href="https://calendly.com/chris-pedagogue"
             target="_blank"
             rel="noreferrer"
