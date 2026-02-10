@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Pedagogue Systems",
   description:
-    "Chris Loope — fractional transformation executive for PE-backed services companies.",
+    "Chris Loope — fractional transformation executive for mid-market services companies.",
   themeColor: "#FF8200",
 };
 
