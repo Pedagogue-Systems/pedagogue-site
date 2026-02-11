@@ -220,7 +220,7 @@ export default function Page() {
             href="https://www.linkedin.com/in/chrisloope/"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl bg-[#0A66C2] px-5 py-3 text-white hover:bg-[#004182] transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0A66C2] px-5 py-3 min-w-[13rem] text-white hover:bg-[#004182] transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -237,9 +237,9 @@ export default function Page() {
             href="https://calendly.com/chris-pedagogue"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-white hover:bg-primary-600 transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 min-w-[13rem] text-white hover:bg-primary-600 transition-colors"
           >
-            Schedule 30 minutes
+            Schedule a Call
           </a>
         </div>
       </section>
