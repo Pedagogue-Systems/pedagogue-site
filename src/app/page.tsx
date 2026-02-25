@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Page() {
   return (
     <>
@@ -174,21 +176,21 @@ export default function Page() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           <div className="rounded-xl border p-4">
-            <h3 className="font-semibold text-sm">Cassion</h3>
+            <h3 className="font-semibold text-sm"><Link href="/platform" className="hover:text-primary transition-colors">Cassion</Link></h3>
             <p className="text-xs text-smokey mt-1">
               System-of-record data platform with APIs, migration, and
               analytics.
             </p>
           </div>
           <div className="rounded-xl border p-4">
-            <h3 className="font-semibold text-sm">Almanak</h3>
+            <h3 className="font-semibold text-sm"><Link href="/platform" className="hover:text-primary transition-colors">Almanak</Link></h3>
             <p className="text-xs text-smokey mt-1">
               Mobile app that evolves from daily insights to workforce
               development.
             </p>
           </div>
           <div className="rounded-xl border p-4">
-            <h3 className="font-semibold text-sm">Maimonides</h3>
+            <h3 className="font-semibold text-sm"><Link href="/platform" className="hover:text-primary transition-colors">Maimonides</Link></h3>
             <p className="text-xs text-smokey mt-1">
               Next-gen matching engine with safe, explainable AI.
             </p>
