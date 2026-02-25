@@ -51,8 +51,7 @@ export default function Page() {
           </p>
           <p>
             Today I take on fractional executive and transformation program
-            engagements through Pedagogue Systems. I also serve as CTO at
-            ActivateStaff and sit on the ASA Staffing Technology Taskforce.
+            engagements through Pedagogue Systems. I also sit on the ASA Staffing Technology Taskforce.
           </p>
         </div>
       </section>
