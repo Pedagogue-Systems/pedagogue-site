@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Page() {
@@ -44,17 +45,26 @@ export default function Page() {
       {/* About */}
       <section id="about" className="py-12 border-t">
         <h2 className="text-2xl font-semibold mb-6">About</h2>
-        <div className="max-w-2xl space-y-3 text-smokey">
-          <p>
-            I&apos;m Chris Loope. I&apos;ve spent my career building, fixing,
-            and scaling operations inside staffing, healthcare, and workforce
-            technology companies &mdash; as CEO, CTO, CIO, CDO, and Chief
-            Transformation Officer.
-          </p>
-          <p>
-            Today I take on fractional executive and transformation program
-            engagements through Pedagogue Systems. I also sit on the ASA Staffing Technology Taskforce.
-          </p>
+        <div className="flex flex-col md:flex-row gap-8 items-start">
+          <Image
+            src="/brand/chris-loope.jpg"
+            alt="Chris Loope, Founder of Pedagogue Systems"
+            width={280}
+            height={350}
+            className="rounded-xl grayscale mx-auto md:mx-0 md:order-1"
+          />
+          <div className="max-w-2xl space-y-3 text-smokey">
+            <p>
+              I&apos;m Chris Loope. I&apos;ve spent my career building, fixing,
+              and scaling operations inside staffing, healthcare, and workforce
+              technology companies &mdash; as CEO, CTO, CIO, CDO, and Chief
+              Transformation Officer.
+            </p>
+            <p>
+              Today I take on fractional executive and transformation program
+              engagements through Pedagogue Systems. I also sit on the ASA Staffing Technology Taskforce.
+            </p>
+          </div>
         </div>
       </section>
 
