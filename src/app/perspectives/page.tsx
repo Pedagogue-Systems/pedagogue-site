@@ -272,7 +272,7 @@ export default function PerspectivesPage() {
               In the Company of Giants <ExtIcon />
             </a>
             <p className="text-xs text-smokey mt-1">
-              Credera &middot; 2024
+              Credera &middot; 2012
             </p>
           </div>
 

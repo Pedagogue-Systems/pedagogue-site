@@ -38,7 +38,7 @@ export default function RootLayout({
                 Perspectives
               </Link>
               <a
-                href="#contact"
+                href="/#contact"
                 className="rounded-xl bg-primary px-4 py-2 text-white hover:bg-primary-600"
               >
                 Let&apos;s talk
