@@ -247,6 +247,49 @@ export default function PerspectivesPage() {
               Microsoft News &middot; Jul 2012
             </p>
           </div>
+
+          <div>
+            <a
+              href="https://credera.com/en-us/insights/the-credera-difference-bgsfs-story"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              The Credera Difference: BGSF&apos;s Story <ExtIcon />
+            </a>
+            <p className="text-xs text-smokey mt-1">
+              Credera &middot; 2023
+            </p>
+          </div>
+
+          <div>
+            <a
+              href="https://credera.com/en-us/insights/in-the-company-of-giants"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              In the Company of Giants <ExtIcon />
+            </a>
+            <p className="text-xs text-smokey mt-1">
+              Credera &middot; 2024
+            </p>
+          </div>
+
+          <div>
+            <a
+              href="https://credera.com/en-us/insights/employbridge-and-credera-celebrating-15-years-of-partnership"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              EmployBridge &amp; Credera: Celebrating 15 Years of Partnership{" "}
+              <ExtIcon />
+            </a>
+            <p className="text-xs text-smokey mt-1">
+              Credera &middot; 2022
+            </p>
+          </div>
         </div>
 
         <h3 className="font-semibold mb-4">Case Studies</h3>
@@ -301,6 +344,48 @@ export default function PerspectivesPage() {
                 Watch video <ExtIcon />
               </a>
             </div>
+          </div>
+
+          <div className="rounded-xl border p-5">
+            <h4 className="font-semibold text-sm">
+              Online Application Entry Project
+            </h4>
+            <p className="text-xs text-smokey mt-1 mb-3">
+              Credera &middot; EmployBridge
+            </p>
+            <p className="text-sm text-smokey mb-3">
+              Case study on EmployBridge&apos;s online application entry
+              project, streamlining candidate onboarding.
+            </p>
+            <a
+              href="https://credera.com/en-us/insights/case-study-employbridge-online-application-entry-project"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              Read case study <ExtIcon />
+            </a>
+          </div>
+
+          <div className="rounded-xl border p-5">
+            <h4 className="font-semibold text-sm">
+              EmployBridge Finds Good Jobs for Good People
+            </h4>
+            <p className="text-xs text-smokey mt-1 mb-3">
+              Credera &middot; EmployBridge
+            </p>
+            <p className="text-sm text-smokey mb-3">
+              Case study featuring CIO quotes on staffing operations,
+              automation, and matching talent to jobs at scale.
+            </p>
+            <a
+              href="https://credera.com/en-us/insights/employbridge-finds-good-jobs-good-people"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              Read case study <ExtIcon />
+            </a>
           </div>
         </div>
       </section>
