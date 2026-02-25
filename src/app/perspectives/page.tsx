@@ -292,6 +292,39 @@ export default function PerspectivesPage() {
           </div>
         </div>
 
+        <h3 className="font-semibold mb-4">Awards &amp; Recognition</h3>
+        <div className="space-y-4 max-w-2xl mb-8">
+          <div>
+            <a
+              href="https://www.bullhorn.com/news-and-press/press-releases/finalists-announced-2018-bullseye-awards-staffing-innovation/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              Finalist — Bullhorn Bullseye Award for Innovative Use of
+              Technology (Large Firms) <ExtIcon />
+            </a>
+            <p className="text-xs text-smokey mt-1">
+              Bullhorn &middot; 2018
+            </p>
+          </div>
+
+          <div>
+            <a
+              href="https://www.prnewswire.com/news-releases/employbridge-wins-prestigious-elevate-and-genius-awards-from-american-staffing-association-300723083.html"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm underline hover:text-primary"
+            >
+              Winner — ASA Elevate Award (Better WorkLife Academy) &amp; Genius
+              Award (Mobile Career App) <ExtIcon />
+            </a>
+            <p className="text-xs text-smokey mt-1">
+              American Staffing Association &middot; 2018
+            </p>
+          </div>
+        </div>
+
         <h3 className="font-semibold mb-4">Case Studies</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="rounded-xl border p-5">
