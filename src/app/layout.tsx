@@ -32,6 +32,12 @@ export default function RootLayout({
 
             <div className="flex items-center gap-6">
               <Link
+                href="/platform"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Platform
+              </Link>
+              <Link
                 href="/perspectives"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
