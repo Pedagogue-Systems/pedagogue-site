@@ -30,12 +30,20 @@ export default function RootLayout({
               <span className="font-semibold">Pedagogue Systems</span>
             </Link>
 
-            <a
-              href="#contact"
-              className="rounded-xl bg-primary px-4 py-2 text-white hover:bg-primary-600"
-            >
-              Let&apos;s talk
-            </a>
+            <div className="flex items-center gap-6">
+              <Link
+                href="/perspectives"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Perspectives
+              </Link>
+              <a
+                href="#contact"
+                className="rounded-xl bg-primary px-4 py-2 text-white hover:bg-primary-600"
+              >
+                Let&apos;s talk
+              </a>
+            </div>
           </nav>
         </header>
 
