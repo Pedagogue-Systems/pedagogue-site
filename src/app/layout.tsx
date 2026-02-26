@@ -1,6 +1,7 @@
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+import MobileNav from "./mobile-nav";
 
 export const metadata = {
   title: "Pedagogue Systems",
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        <header className="border-b">
+        <header className="relative border-b">
           <nav className="container mx-auto flex items-center justify-between p-4">
             <Link href="/" className="flex items-center gap-3">
               <Image
@@ -30,7 +31,8 @@ export default function RootLayout({
               <span className="font-semibold">Pedagogue Systems</span>
             </Link>
 
-            <div className="flex items-center gap-6">
+            {/* Desktop nav */}
+            <div className="hidden md:flex items-center gap-6">
               <Link
                 href="/platform"
                 className="text-sm font-medium hover:text-primary transition-colors"
@@ -50,6 +52,9 @@ export default function RootLayout({
                 Let&apos;s talk
               </a>
             </div>
+
+            {/* Mobile hamburger */}
+            <MobileNav />
           </nav>
         </header>
 
